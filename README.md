@@ -60,7 +60,7 @@ Project_movie_analysis/
 
 ## 💻 如何运行项目 (Setup & Run)
 
-1.  **克隆仓库：** `git clone [您的仓库URL]`
+1.  **克隆仓库：** `git clone https://github.com/Triton-math/Project_movie_analysis`
 2.  **环境配置：** 创建 Python 虚拟环境并安装依赖（pandas, sqlalchemy, pymysql, dotenv）。
 3.  **数据库设置：** 配置Mysql的连接参数，在 MySQL Workbench 中运行 `src/sql/table_setup.sql` 建立表结构。
 4.  **数据导入：** 将Mysql连接参数的相关信息存储到一个新建的.env文件中并放置在根目录下，运行 Python 脚本导入数据：`python src/python/proj_ingestion.py`
